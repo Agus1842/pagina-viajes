@@ -1,0 +1,89 @@
+/*==========Estilos Generales============*/
+
+@import url('https://fonts.googleapis.com/css2? family=Dosis:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*==============ENCABEZADO=============*/
+
+.main-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/Viajes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+}
+
+.main-nav {
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    /*===========ACOMODA LA BARRA DE BUSQUEDA===========*/
+}
+
+.logo {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 28px 48px;
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+    /*=========SIRVE PARA ACOMODAR LA BARRA DE BUSQUEDA===========*/
+}
+
+ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 28px 48px;
+    font-size: 1.3rem;
+}
+
+ul li a:hover {
+    color: darkcyan;
+}
+
+.content-header {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content-header h1 {
+    font-size: 7rem;
+}
+
+.content-header p {
+    margin: 15px 30px;
+    font-size: 1.5rem;
+}
+
+.content-header a {
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: #AEB6BF;
+    border-radius: 10px;
+    opacity: 80%;
+    color: #fff;
+}
+
+.content-header a:hover {
+    color: darkcyan;
+    border: 1px solid #fff;
+    padding: 13px 18px;
+}
